@@ -1,5 +1,5 @@
 /* feel free to go on google fonts and change this to another font! */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 
 /* == UI COMPONENTS == */
 /* buttons */
@@ -14,7 +14,7 @@ button,
   text-decoration: none;
   font-size: 1rem;
   /* if you change the font, don't forget to change it here too! */
-  font-family: "Quicksand", sans-serif;
+  font-family: "Inconsolata", monospace;
   padding: 0.6rem 1.2rem;
   vertical-align: middle;
   text-align: center;
@@ -47,7 +47,7 @@ button:hover {
 
 html {
   box-sizing: border-box;
-  font-family: "Space Mono", monospace;
+  font-family: "Inconsolata", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
@@ -67,12 +67,13 @@ div {
 body {
   box-sizing: border-box;
   min-height: 100%;
+  background-color: #b2d3c2
 }
 
 /* Anchors */
 a {
   border-bottom: 3px solid #beebaa44;
-  color: #5a7913;
+  color: #160c69;
   font-weight: 800;
   font-size: 1rem;
   text-decoration: none;
@@ -88,7 +89,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #0a5822;
+  color: #160c69;
   margin-top: 2rem;
   line-height: 1.2;
 }
@@ -111,6 +112,7 @@ h4 {
   padding-right: 10px;
   margin: 0 0;
   transition: all 0.3s ease;
+  background-color: #93e9be;
 }
 
 .container::before,
@@ -143,7 +145,7 @@ h4 {
   margin-top: 2rem;
   padding: 0.5rem 1rem;
   text-align: center;
-  background-color: #5a7913;
+  background-color: #160c69;
 }
 
 .nav-item {
@@ -179,6 +181,6 @@ h4 {
 
 blockquote {
   color: #eee;
-  background-color: #5a7913;
+  background-color: #93e9be;
   padding: 1rem;
 }
