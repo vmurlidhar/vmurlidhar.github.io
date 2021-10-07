@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="masthead">
       <Link to="/">
-        <h1 className="site-title">CSSG Education Team</h1>
+        <h1 className="site-title">Varun's Github Page</h1>
       </Link>
 
       <div className="nav-links">
